@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "dl-mat-table": [
+        "dist/dl-mat-table"
+      ],
+      "dl-mat-table/*": [
+        "dist/dl-mat-table/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
