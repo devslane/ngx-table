@@ -1,0 +1,11 @@
+.dl-table {
+  width: 100%;
+
+  &-cell {
+    margin: 5px;
+  }
+
+  .actions-row {
+    display: flex;
+  }
+}
