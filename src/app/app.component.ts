@@ -35,12 +35,14 @@ export class AppComponent {
     {
       tooltipTitle: 'Edit',
       icon: 'edit',
-      type: 'edit'
+      type: 'edit',
+      color: 'primary'
     },
     {
       tooltipTitle: 'Delete',
       icon: 'delete',
-      type: 'delete'
+      type: 'delete',
+      color: 'warn'
     }
   ];
 

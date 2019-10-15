@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {DlMatTableComponent} from './components/dl-mat-table/dl-mat-table.component';
-import {MatIconModule, MatTableModule, MatTooltipModule} from '@angular/material';
+import {MatButtonModule, MatIconModule, MatTableModule, MatTooltipModule} from '@angular/material';
 import {BrowserDynamicTestingModule} from '@angular/platform-browser-dynamic/testing';
 
 
@@ -10,7 +10,8 @@ import {BrowserDynamicTestingModule} from '@angular/platform-browser-dynamic/tes
     MatTableModule,
     BrowserDynamicTestingModule,
     MatIconModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatButtonModule
   ],
   exports: [DlMatTableComponent]
 })

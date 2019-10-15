@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Input, NgZone, OnInit, Output} from '@angular/core';
+import {ThemePalette} from '@angular/material';
 
 export interface DlTableColumn {
   title: string;
@@ -10,6 +11,7 @@ export interface DlTableAction {
   icon: string;
   // Used to identify the event when the action will be clicked
   type: string;
+  color: ThemePalette;
 }
 
 @Component({
