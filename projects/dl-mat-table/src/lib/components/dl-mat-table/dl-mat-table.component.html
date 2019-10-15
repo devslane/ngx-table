@@ -19,11 +19,9 @@
     <td mat-cell *matCellDef="let element">
       <div class="actions-row">
         <ng-container *ngFor="let action of element['actions']">
-          <div>
-            <mat-icon>
-              {{action.icon}}
-            </mat-icon>
-          </div>
+          <mat-icon (click)="handleActionClicked(action.type)">
+            {{action.icon}}
+          </mat-icon>
         </ng-container>
       </div>
     </td>

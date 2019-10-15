@@ -330,7 +330,8 @@
 
 <div class="content" role="main">
 
-  <lib-dl-mat-table [entities]="entities" [columns]="columns" [actions]="actions"></lib-dl-mat-table>
+  <lib-dl-mat-table [entities]="entities" [columns]="columns" [actions]="actions"
+                    (actionClicked)="actionClicked($event)"></lib-dl-mat-table>
 
 </div>
 

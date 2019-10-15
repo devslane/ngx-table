@@ -1,4 +1,4 @@
-import {Component, Input, NgZone, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, NgZone, OnInit, Output} from '@angular/core';
 
 export interface DlTableColumn {
   title: string;
@@ -22,6 +22,8 @@ export class DlMatTableComponent implements OnInit {
   @Input() actions: DlTableAction[];
   @Input() entities: any[];
 
+  @Output() actionClicked = new EventEmitter();
+
   headers: string[];
   tableDataSource;
 
@@ -37,6 +39,10 @@ export class DlMatTableComponent implements OnInit {
       ...e,
       actions: this.actions
     }));
+  }
+
+  handleActionClicked(type: string) {
+    this.actionClicked.emit(type);
   }
 
   private _getHeaders(): string[] {

@@ -43,4 +43,8 @@ export class AppComponent {
       type: 'delete'
     }
   ];
+
+  actionClicked(t: string) {
+    console.log(t);
+  }
 }
