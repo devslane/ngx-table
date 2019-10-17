@@ -28,6 +28,30 @@ export class AppComponent {
     {
       name: 'Piyush Mishra',
       email: 'piyush0mishra@gmail.com'
+    },
+    {
+      name: 'Piyush Mishra',
+      email: 'piyush0mishra@gmail.com'
+    },
+    {
+      name: 'Piyush Mishra',
+      email: 'piyush0mishra@gmail.com'
+    },
+    {
+      name: 'Piyush Mishra',
+      email: 'piyush0mishra@gmail.com'
+    },
+    {
+      name: 'Piyush Mishra',
+      email: 'piyush0mishra@gmail.com'
+    },
+    {
+      name: 'Piyush Mishra',
+      email: 'piyush0mishra@gmail.com'
+    },
+    {
+      name: 'Piyush Mishra',
+      email: 'piyush0mishra@gmail.com'
     }
   ];
 
